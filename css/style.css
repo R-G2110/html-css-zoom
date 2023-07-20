@@ -3,3 +3,92 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.debug {
+  background-color: rgba(255, 0, 0, .3);
+  border: 1px solid black;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Header */
+header {
+  width: 100vw;
+  height: 60px;
+  background-color: black;
+}
+
+/* Main */
+main {
+  height: calc(100vh - 100px);
+  background-color: black;
+  overflow: auto;
+}
+
+.images {
+  position: relative;
+  /* height: 200px;
+  width: 200px; */
+}
+
+main .row .col{
+  width: calc(100% / 7);
+  min-width: 150px;
+  padding: 0 2px;
+  margin-bottom: 2px;
+  position: relative;
+}
+
+.username span, 
+.username .fa-microphone-slash{
+  color: white;
+}
+
+.username {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  background-color: rgba(89, 100, 113, .5);
+  padding: 5px;
+}
+
+.username span {
+  font-size: 15px;
+}
+
+.username .fa-microphone-slash {
+  font-size: 13px;
+}
+
+
+
+/* Player */
+.player {
+  height: 40px;
+  background-color: gray;
+}
+
+
+
+
+.username{
+  /* background-color: rgba(128, 128, 128, 1); */
+}
+
