@@ -29,6 +29,14 @@ img {
   max-width: 100%;
 }
 
+div .images img:hover,
+i:hover {
+  cursor: pointer;
+}
+
+div i:active {
+  filter: opacity(.5);
+}
 
 .container {
   width: 80%;
